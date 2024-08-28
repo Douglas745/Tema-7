@@ -1,0 +1,22 @@
+Exercicio 1:
+
+const quadrado = num=>num*num ;
+console.log(quadrado(4)); // Saída: 16
+
+Exercício 2:
+const  soma = (a,b) => a+b; 
+
+console.log(soma(4,4)); // Saída: 8
+
+Exercício 3:
+const saudacao = ('Olá, Mundo') 
+console.log(saudacao); // Saída: Olá, mundo!
+
+Exercício 4:
+
+const multiplicarPorDois = num => {
+
+ let resultado = num * 2;
+ return resultado;
+};
+console.log(multiplicarPorDois(7)); // Saída: 14
