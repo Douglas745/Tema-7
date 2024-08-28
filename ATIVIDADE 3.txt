@@ -1,0 +1,13 @@
+function Livro(titulo, autor, anoPublicacao) {
+    this.titulo = titulo;
+    this.autor = autor;
+    this.anoPublicado = anoPublicado;
+}
+
+ this.exibirInfo = function(){
+     return `${this.titulo} de {this.autor}, Publicado em ${this.anoPublicado}´;
+ };
+}
+
+let meuLivro = new Livro("1984", "George Orwell", 1949);
+console.log(meuLivro.exibirInfor());
